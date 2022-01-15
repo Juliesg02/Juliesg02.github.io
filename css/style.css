@@ -1,0 +1,51 @@
+/* 
+
+Project Name: Portafolio Julio Sánchez 
+Client: Personal
+Author: Julio Sánchez G. 
+Developed @ One Month  
+
+*/
+
+body {
+	background: url('../images/dna.jpg');
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background: #1A1331;
+	width: 560px;
+	color: #A9A7B3;
+	padding: 15px;
+	transform: translate(50%, 0%);
+	font-family: 'Quantico', sans-serif;
+}
+
+h1{
+	font-size: 80px;
+	color: #6200FF;
+
+}
+
+h2 {
+	background: #A8F018;
+	font-size: 30px;
+	color: #1A1331;
+	padding: 5px;
+	border-radius: 2px;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #1A1331;
+}
+
+a {
+	color: bisque;
+	text-decoration: none;
+}
